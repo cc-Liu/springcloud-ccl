@@ -1,0 +1,15 @@
+server:
+  port: 18081
+spring:
+  application:
+    name: springCloud-ccl
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        file-extension: yaml
+
+#腾讯云测试环境
+        server-addr: 124.223.97.133:8848
+        namespace: a73a23fe-fae4-44d4-ba5a-809bc477d855
